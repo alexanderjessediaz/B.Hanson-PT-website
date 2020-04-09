@@ -1,0 +1,62 @@
+#main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: grey;
+}
+
+.main-conatiner{
+    background-color: gray;
+}
+
+#main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: grey;
+    height: 10rem;
+}
+
+.intro-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: gray;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#h1-intro-text-bold{
+    color: darkblue;
+    width: 50%;
+    text-align: center;
+}
+#h1-About-Beth {
+    display: flex;
+    flex-direction: column;
+    background: grey;
+}
+
+#about-me-text {
+    width: 50%;
+}
+
+#about-me-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: gray;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+#intro-text-small{
+    color: limegreen;
+}
+
+#intro-photo-slideshow {
+    width: 50%;
+}

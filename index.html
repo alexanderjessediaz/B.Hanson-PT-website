@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beth's Website</title>
+</head>
+<body>
+    <header id="main-header">
+        <img id="logo" src="https://image7.zibster.com/8907/9_20180904092835_9475710_large.png".svg height="100" width="100">
+        <img id="instagram-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png" height="25" width="25">
+    </header>
+    <nav id="main-nav">
+        <a href="https://ehansen2.zibster.com/">Home</a>
+        <a href="https://ehansen2.zibster.com/services">Services</a>
+        <a href="https://ehansen2.zibster.com/contact">Contact</a>
+        <a href="https://ehansen2.zibster.com/testimonials">FAQ</a>
+    </nav>
+    <section class="main-container" style="background-color: gray;text-align: center;">
+        <div class="intro-container">
+            <h1 id="h1-intro-text-bold">BIG BOLD TEXT
+                <br><small id="intro-text-small">Little text detail <br> text...text...text...text...text...text...text...text...text...</small>
+            </h1>
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <img class="mySlides" src="https://image9.zibster.com/8391/9_20180814190416_9456462_large.jpg" style="width:100%">
+                    <img class="mySlides" src="https://image4.zibster.com/2521/9_20190806134502_9820227_large.jpg" style="width:100%">
+                    <img class="mySlides" src="https://image4.zibster.com/8279/9_20180814191205_9456466_large.jpg" style="width:100%">
+                  </div>
+                  <script>
+                  var myIndex = 0;
+                  carousel();
+                  function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                  }
+                  </script>
+        </div> 
+        <h1 id="h1-About-Beth">About Beth</h1>
+        <section id="about-me-container">
+            <img id="about-me-img"src="https://image10.zibster.com/5784/9_20181106161539_9562040_large.jpg" height="300rem" width="500rem">
+            <div id="about-me-text">
+                <p>
+                    Movement is nutrition for the body, mind & spirit. I prescribe movements that benefit your individual needs the most. I  am committed to helping normal people and their bodies navigate life effectively and free of pain through implementation of scientifically sound programming and assessments.  
+                    My professional interests include mobility & joint health, endurance sports, general health & well-being, as well as promoting health and wellness at any size, age or ability. By combining extensive knowledge of human physiology & anatomy with common sense, I guarantee a safe space for growing and trying new movements and habits.
+                </p>
+            </div>
+        </section>
+    </section>
+    </div>
+</body>
+</html>
+<!-- Beth's about me picture -->
+<!-- <img src="https://image10.zibster.com/5784/9_20181106161539_9562040_large.jpg" height="200" width="300"> -->
